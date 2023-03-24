@@ -1,0 +1,49 @@
+body {
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+h1 {
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  text-align: center;
+}
+.container {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+
+.show-dish {
+  position: relative;
+}
+
+.show-dish a img {
+  object-fit: cover;
+  width: 600px;
+  height: 500px;
+  margin: 10px;
+}
+
+.show-dish a img:hover {
+  opacity: 0.9;
+}
+
+.show-dish h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;
+  opacity: 0;
+}
+
+.show-dish h3:hover {
+  opacity: 1;
+}
