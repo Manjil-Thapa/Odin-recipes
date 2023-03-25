@@ -59,3 +59,23 @@ h1 {
 .show-dish h3:hover {
   opacity: 1;
 }
+
+a {
+  color: yellow;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 1.1rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+footer h3 {
+  text-align: center;
+  margin: 10px auto;
+}
