@@ -4,13 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Inconsolata:wght@200;300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/public/styles/styles.css" />
     <title>Odin Recipes - Momo</title>
   </head>
   <body>
+    <nav>
+      <a href="#description">Description</a>
+      <a href="#ingredients">Ingredients</a>
+      <a href="#instructions">Instructions</a>
+    </nav>
     <main>
       <h1>Momo</h1>
       <img src="/public/momo2.jpg" alt="momo" />
-      <h2>Description</h2>
+      <h2 id="description">Description</h2>
       <p>
         Momo is a type of steamed filled dumpling, with origins from Tibet. Momo
         is native to Tibet, Nepal as well as Indian Himalayan Region of Ladakh,
@@ -21,7 +33,7 @@
         the Indian regions of Darjeeling.
       </p>
       <section class="ingredients">
-        <h2>Ingredients</h2>
+        <h2 id="ingredients">Ingredients</h2>
         <h3>Momo Fillings</h3>
         <ul>
           <li>1kg ground pork</li>
@@ -52,7 +64,7 @@
         </ul>
       </section>
       <section class="instructions">
-        <h2>Instructions</h2>
+        <h2 id="instructions">Instructions</h2>
         <ol>
           <li>
             Prepare filling ingredients, dumpling dough, and tomato sauce by
@@ -82,6 +94,12 @@
         </ol>
       </section>
     </main>
-    <a href="/index.html"></a>
+    <footer>
+      <a href="/index.html">Back</a>
+      <a href="#top">Back to top of page</a>
+      <a href="#description">Description</a>
+      <a href="#ingredients">Ingredients</a>
+      <a href="#instructions">Instructions</a>
+    </footer>
   </body>
 </html>

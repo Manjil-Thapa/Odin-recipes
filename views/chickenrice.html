@@ -4,22 +4,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Inconsolata:wght@200;300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/public/styles/styles.css" />
     <title>Odin Recipes - Chicken Rice</title>
   </head>
   <body>
+    <nav>
+      <a href="#description">Description</a>
+      <a href="#ingredients">Ingredients</a>
+      <a href="#instructions">Instructions</a>
+    </nav>
     <main>
       <h1>Chicken Rice</h1>
-      <img src="/public/chicken-rice2.JPG" alt="chicken rice" />
-      <h2>Description</h2>
-      <p class="description">
-        Chicken rice, considered one of Singapore's national dishes, excels
-        because of its simplicity; poached chicken on white rice, served with
-        soy sauce and chilli garlic dip. The recipe and techniques to make
-        chicken rice came to Singapore through a mix of Hainanese and Cantonese
-        cultures.
-      </p>
+      <div class="top">
+        <img src="/public/chicken-rice2.JPG" alt="chicken rice" />
+        <h2 id="description">Description</h2>
+        <p class="description">
+          Chicken rice, considered one of Singapore's national dishes, excels
+          because of its simplicity; poached chicken on white rice, served with
+          soy sauce and chilli garlic dip. The recipe and techniques to make
+          chicken rice came to Singapore through a mix of Hainanese and
+          Cantonese cultures.
+        </p>
+      </div>
       <section class="ingredients">
-        <h2>Ingredients</h2>
+        <h2 id="ingredients">Ingredients</h2>
         <h3>Chicken</h3>
         <ul>
           <li>1.5kg whole chicken</li>
@@ -56,7 +70,7 @@
         </ul>
       </section>
       <section class="instructions">
-        <h2>Instructions</h2>
+        <h2 id="instructions">Instructions</h2>
         <ol>
           <li>
             Rub kosher salt and get rid of loose skin. Rinse chicken well and
@@ -99,6 +113,12 @@
         </ol>
       </section>
     </main>
-    <a href="/index.html">Back</a>
+    <footer>
+      <a href="/index.html">Back</a>
+      <a href="#top">Back to top of page</a>
+      <a href="#description">Description</a>
+      <a href="#ingredients">Ingredients</a>
+      <a href="#instructions">Instructions</a>
+    </footer>
   </body>
 </html>

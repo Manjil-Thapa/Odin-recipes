@@ -1,6 +1,15 @@
 body {
   overflow-x: hidden;
   box-sizing: border-box;
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(121, 9, 106, 1) 52%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: white;
+  font-family: "Inconsolata", sans-serif;
 }
 
 h1 {
@@ -8,10 +17,13 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Dancing Script", sans-serif;
+  font-size: 4rem;
 }
 
 .hero {
   text-align: center;
+  font-size: 1.5rem;
 }
 .container {
   position: relative;
